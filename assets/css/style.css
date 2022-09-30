@@ -1,63 +1,63 @@
 * {
-  box-sizing: border-box;
-  border: solid 1px black;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
+	box-sizing: border-box;
+	border: solid 1px black;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
 }
 
-header {
-  display: flex;
-  background-color: black;
+#header {
+	position: fixed;
+	background-color: white;
+	color: black;
 }
 
-h1 {
-  font-size: 42px;
-  color: white;
-  position: relative;
-  margin-top: 1em;
-  margin-left: 1em;
+#name {
+	font-size: 42px;
+	position: fixed;
+	margin: 20px 20px 20px 20px;
 }
 
-.headnavbar {
-  float: right;
-  font-size: 3em;
-  color: white;
+#headnavbar {
+	position: fixed;
+	left: 1100px;
+	top: 42px;
+	font-size: 3em;
 }
 
 li.pagelist {
-display: inline;
-margin: 10px;
-padding: 10 px;
+	display: inline;
+	margin: 10px;
+	padding: 10 px;
 }
 
 .footercontacts {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  position: fixed;
-  bottom: 0px;
-  height: 5pc;
-  width: 100pc;
-  background-color: black;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	position: fixed;
+	bottom: 0px;
+	height: 5pc;
+	width: 100pc;
+	background-color: black;
 }
 
 .contacts {
-  display: inline;
-  margin-left: 10px;
+	display: inline;
+	margin-left: 10px;
 }
 
 #gitimage {
-  position: relative;
-  padding-top: 1em;
-  margin-bottom: 0.8em;
+	position: relative;
+	padding-top: 1em;
+	margin-bottom: 0.8em;
 }
 
 #email-icon {
-  max-height: 3em;
-  max-width: 3em;
+	max-height: 3em;
+	max-width: 3em;
 }
 
 #email {
-  position: relative;
-  bottom: 1.5em;
+	position: relative;
+	bottom: 1.5em;
 }
