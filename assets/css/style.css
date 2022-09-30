@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  border: solid 1px black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+header {
+  display: flex;
+  background-color: black;
+}
+
+h1 {
+  font-size: 42px;
+  color: white;
+  position: relative;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.profile-pic {
+  object-fit: cover;
+  border-radius: 50%;
+  padding: 1em;
+  height: 8em;
+  width: 8em;
+}
+
+.headnavbar {
+  float: right;
+  font-size: 3em;
+  color: white;
+}
+
+li.pagelist {
+display: inline;
+margin: 10px;
+padding: 10 px;
+}
+
+.footercontacts {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  position: fixed;
+  bottom: 0px;
+  height: 5pc;
+  width: 100pc;
+  background-color: black;
+}
+
+.contacts {
+  display: inline;
+  margin-left: 10px;
+}
+
+#gitimage {
+  position: relative;
+  padding-top: 1em;
+  margin-bottom: 0.8em;
+}
+
+#email-icon {
+  max-height: 3em;
+  max-width: 3em;
+}
+
+#email {
+  position: relative;
+  bottom: 1.5em;
+}
