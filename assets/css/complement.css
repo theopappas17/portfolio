@@ -1,0 +1,12 @@
+:root {
+  --fonts: Georgia, 'Times New Roman', Times, serif;
+  --backgroundcolor: #284646;
+}
+
+#myname {
+  font-family: var(--fonts);
+}
+
+#myself {
+  font-family: var(--fonts);
+}
