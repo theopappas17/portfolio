@@ -3,10 +3,12 @@
   --backgroundcolor: #284646;
 }
 
-#myname {
+#jmbtron {
   font-family: var(--fonts);
+  color: rgb(255, 251, 0);
 }
 
-#myself {
+#blurb {
   font-family: var(--fonts);
+  margin-left: 800px;
 }
