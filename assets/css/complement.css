@@ -1,6 +1,5 @@
 :root {
   --fonts: Georgia, 'Times New Roman', Times, serif;
-  --backgroundcolor: #284646;
 }
 
 #jmbtron {
@@ -11,4 +10,10 @@
 #blurb {
   font-family: var(--fonts);
   margin-left: 800px;
+}
+
+#nav {
+  font-family: var(--fonts);
+  font-size: 19px;
+  color: rgb(11, 71, 235);
 }
