@@ -16,6 +16,38 @@
 	font-size: 19px;
 }
 
-.projects{
+.projects {
 	font-family: var(--fonts);
+}
+
+.footercontacts {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	position: fixed;
+	bottom: 0px;
+	height: 5pc;
+	width: 100pc;
+	background-color: black;
+}
+
+.contacts {
+	display: inline;
+	margin-left: 10px;
+}
+
+#gitimage {
+	position: relative;
+	padding-top: 1em;
+	margin-bottom: 0.8em;
+}
+
+#email-icon {
+	max-height: 3em;
+	max-width: 3em;
+}
+
+#email {
+	position: relative;
+	bottom: 1.5em;
 }
