@@ -24,11 +24,9 @@
 	display: flex;
 	justify-content: center;
 	list-style: none;
-	position: fixed;
 	bottom: 0px;
 	height: 5pc;
 	width: 100pc;
-	background-color: black;
 }
 
 .contacts {
@@ -37,17 +35,12 @@
 }
 
 #gitimage {
-	position: relative;
 	padding-top: 1em;
 	margin-bottom: 0.8em;
 }
 
 #email-icon {
-	max-height: 3em;
-	max-width: 3em;
-}
-
-#email {
-	position: relative;
-	bottom: 1.5em;
+  padding-top: 10px;
+	max-height: 50px;
+	max-width: 50px;
 }

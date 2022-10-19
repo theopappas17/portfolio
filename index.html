@@ -1,69 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- bootstrap version 4.6.2 so I can have access to jumbotron -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="/assets/css/complement.css">
-    <title>Theo Pappas Portfolio</title>
-  </head>
-  <body>
-    <header>
-      <div class="jumbotron jumbotron-fluid bg-dark text-warning" id="jmbtron">
-        <div class="container">
-          <h1 class="display-4">Theo Pappas</h1>
-          <span class="lead" id="blurb">.  .  . a full-stack web developer.</span>
-        </div>
-      </div>
-      <nav id="navbar">
-        <ul class="nav justify-content-end mt-n5 pt-1 bg-warning mb-4" id="nav">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">My Work</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- bootstrap version 4.6.2 so I can have access to jumbotron -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+			integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="/assets/css/complement.css" />
+		<title>Theo Pappas Portfolio</title>
+	</head>
+	<body>
+		<header>
+			<div class="jumbotron jumbotron-fluid bg-dark text-warning" id="jmbtron">
+				<div class="container">
+					<h1 class="display-4">Theo Pappas</h1>
+					<span class="lead" id="blurb">. . . a full-stack web developer.</span>
+				</div>
+			</div>
+			<nav class="nav justify-content-end mt-n5 pt-1 bg-warning mb-4" id="nav">
+				<a class="nav-link active" href="#">About Me</a>
+				<a class="nav-link" href="#">My Work</a>
+				<a class="nav-link" href="#footer">Contact</a>
+			</nav>
+		</header>
 
-    <main>
-      <div class="card-deck">
-        <div class="card projects">
-          <a href="https://theopappas17.github.io/random-password-maker/" target="_blank"><img src="./assets/images/passwordgenerator.png" class="card-img-top" alt="A picture of the password generator interface"></a>
-          <div class="card-body">
-            <h5 class="card-title">Password Generator</h5>
-            <p class="card-text">A simple app that generates a password given certain parameters determined by the user</p>
-          </div>
-        </div>
-        <div class="card projects">
-          <a href="https://theopappas17.github.io/knowledge-of-javascript-game/" target="_blank"><img src="./assets/images/javascriptgame.png" class="card-img-top" alt="A picture of game over of the JavaScript Game"></a>
-          <div class="card-body">
-            <h5 class="card-title">JavaScript Quiz</h5>
-            <p class="card-text">A quiz game built using JavaScript.</p>
-          </div>
-        </div>
-        <div class="card projects">
-          <a href="https://theopappas17.github.io/05-pocket-todo-app-techo/" target="_blank"><img src="/assets/images/todo-app.png" class="card-img-top" alt="A picture of my todo app."></a>
-          <div class="card-body">
-            <h5 class="card-title">Todo App</h5>
-            <p class="card-text">This is a simple app where you can record todos for a day and that will keep track of the current time.</p>
-          </div>
-        </div>
-      </div>
-    </main>
+		<main>
+			<div class="card-deck">
+				<div class="card projects">
+					<a
+						href="https://theopappas17.github.io/random-password-maker/"
+						target="_blank"
+						><img
+							src="./assets/images/passwordgenerator.png"
+							class="card-img-top"
+							alt="A picture of the password generator interface"
+					/></a>
+					<div class="card-body">
+						<h5 class="card-title">Password Generator</h5>
+						<p class="card-text">
+							A simple app that generates a password given certain parameters
+							determined by the user
+						</p>
+					</div>
+				</div>
+				<div class="card projects">
+					<a
+						href="https://theopappas17.github.io/knowledge-of-javascript-game/"
+						target="_blank"
+						><img
+							src="./assets/images/javascriptgame.png"
+							class="card-img-top"
+							alt="A picture of game over of the JavaScript Game"
+					/></a>
+					<div class="card-body">
+						<h5 class="card-title">JavaScript Quiz</h5>
+						<p class="card-text">A quiz game built using JavaScript.</p>
+					</div>
+				</div>
+				<div class="card projects">
+					<a
+						href="https://theopappas17.github.io/05-pocket-todo-app-techo/"
+						target="_blank"
+						><img
+							src="/assets/images/todo-app.png"
+							class="card-img-top"
+							alt="A picture of my todo app."
+					/></a>
+					<div class="card-body">
+						<h5 class="card-title">Todo App</h5>
+						<p class="card-text">
+							This is a simple app where you can record todos for a day and that
+							will keep track of the current time.
+						</p>
+					</div>
+				</div>
+			</div>
+		</main>
 
-    <footer>
-      <nav class="footercontacts">
-        <li class="contacts"><a href="mailto:theopappas17@gmail.com" target="_blank"><img src="./assets/images/email-icon.jpeg" alt="Email Icon" id="email-icon"></a></li>
-        <li class="contacts"><a href="https://github.com/theopappas17" target="_blank"><img id="gitimage" src="./assets/images/GitHub-Mark-Light-32px.png" alt="GitHub-Mark"></a></li>
-      </nav>
-    </footer>
-    
-  </body>
+		<footer>
+			<nav class="footercontacts bg-dark" id="footer">
+				<li class="contacts">
+					<a href="mailto:theopappas17@gmail.com" target="_blank"
+						><img
+							src="./assets/images/emailicon.png"
+							alt="Email Icon"
+							id="email-icon"
+					/></a>
+				</li>
+				<li class="contacts">
+					<a href="https://github.com/theopappas17" target="_blank"
+						><img
+							id="gitimage"
+							src="./assets/images/GitHub-Mark-Light-32px.png"
+							alt="GitHub-Mark"
+					/></a>
+				</li>
+			</nav>
+		</footer>
+	</body>
 </html>
