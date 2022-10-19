@@ -20,20 +20,6 @@
 	font-family: var(--fonts);
 }
 
-.footercontacts {
-	display: flex;
-	justify-content: center;
-	list-style: none;
-	bottom: 0px;
-	height: 5pc;
-	width: 100pc;
-}
-
-.contacts {
-	display: inline;
-	margin-left: 10px;
-}
-
 #gitimage {
 	padding-top: 1em;
 	margin-bottom: 0.8em;
